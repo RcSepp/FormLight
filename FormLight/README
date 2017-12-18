@@ -1,0 +1,10 @@
+Install Linux Dependencies:
+
+sudo apt-get install freeglut3-dev libfreeimage-dev libsqlite3-dev
+
+
+download boost library ...
+in boost directory:
+$ ./bootstrap
+$ sudo ./b2 install
+(may also be possible by a simple sudo apt-get install boost)

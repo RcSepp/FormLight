@@ -1,0 +1,28 @@
+var struct_quaternion =
+[
+    [ "Quaternion", "struct_quaternion.html#abcc01358aada56ea5f0db4da18aaf77d", null ],
+    [ "Quaternion", "struct_quaternion.html#af1293ea7f1913326a47270aa3a2092fe", null ],
+    [ "Quaternion", "struct_quaternion.html#a34a778f7b442c7eea71f9754969abc72", null ],
+    [ "Quaternion", "struct_quaternion.html#a65de0d850f33caae9a211c9d450be0c7", null ],
+    [ "ComputeAngleWrapper", "struct_quaternion.html#af0b6c6b66a4c8af12364d070c4520534", null ],
+    [ "ComputeAxisWrapper", "struct_quaternion.html#affc35821a5313c161bdff8cdcabe9575", null ],
+    [ "operator const float *", "struct_quaternion.html#a259e6db409cc139a1f8beecf0be214e8", null ],
+    [ "operator float *", "struct_quaternion.html#ae706dd0548e12e1744a106c601183598", null ],
+    [ "operator hkQuaternion", "struct_quaternion.html#a07ec83ff686594a2a8539b65bb00d298", null ],
+    [ "operator!=", "struct_quaternion.html#a656f131eecdb64481b3124304fe6a74c", null ],
+    [ "operator*", "struct_quaternion.html#af692e52819e1b6bb0fdcd613101bc6d8", null ],
+    [ "operator*", "struct_quaternion.html#ab3d264e31f1208390b942a47544afac2", null ],
+    [ "operator*=", "struct_quaternion.html#a78e31cc94b39f5c8a9b9f3b8be427380", null ],
+    [ "operator*=", "struct_quaternion.html#aaf51ded4001fb82c9db799d9b815bb60", null ],
+    [ "operator+", "struct_quaternion.html#afb2987b42c69c2949939a1e9979a6ae5", null ],
+    [ "operator+=", "struct_quaternion.html#a5bcd2496c88e4ae2fc93faec3998ab62", null ],
+    [ "operator-", "struct_quaternion.html#ad5194d153cad03dfd63e958d9e8a2550", null ],
+    [ "operator-=", "struct_quaternion.html#a311a968ceb42a0c0f5699e4fade6d8b1", null ],
+    [ "operator/", "struct_quaternion.html#a749764ccda864ef7cf4ab6fa079629b7", null ],
+    [ "operator/=", "struct_quaternion.html#a08a444a43e54115b4eaba499920d8742", null ],
+    [ "operator==", "struct_quaternion.html#a0cb747e3e200c9278d26113ffd13d2c6", null ],
+    [ "w", "struct_quaternion.html#aa44a65ab99e36f6ab8771030eed8a7ad", null ],
+    [ "x", "struct_quaternion.html#a8b80f191a3155cc0158d2b4f4d50b2cb", null ],
+    [ "y", "struct_quaternion.html#a3bd3f270462944423611f44e19d2511b", null ],
+    [ "z", "struct_quaternion.html#a625cb732d8ff3083e7852b86b736ab29", null ]
+];
