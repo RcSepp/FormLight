@@ -1,4 +1,4 @@
-TARGET := view
+TARGET := FormLight
 
 # Define directory
 BINDIR := ../bin
@@ -29,7 +29,7 @@ $(TARGET): $(addprefix $(OBJDIR)/, $(OBJECTS))
 	$(CC) $(CFLAGS_DEBUG) $(INCFLAGS) $(addprefix $(OBJDIR)/, $(OBJECTS)) $(LIBS) -o $(BINDIR)/$(TARGET)
 
 clean:
-	rm $(addprefix $(OBJDIR)/, $(OBJECTS))
+	rm $(addprefix $(OBJDIR)/, $(OBJECTS)) $(BINDIR)/$(TARGET)
 
 #$(TARGET):
 #	$(CC) $(CFLAGS_DEBUG) $(INCFLAGS) -o $@ $(FILES) $(LIBS) -o $(BIN)$(TARGET)

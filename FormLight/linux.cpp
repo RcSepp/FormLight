@@ -55,7 +55,6 @@ private:
 	
 public:
 	XIC xic;
-	XWindow(const Settings& settings) : Graphics(settings) {}
 	const Window gethandle() { return wnd; }
 	std::string init(const OSWindow::Settings& settings)
 	{
@@ -189,6 +188,7 @@ private:
 	GLXContext renderctx;
 
 public:
+	XGLGraphics(const Settings& settings) : Graphics(settings) {}
 	std::string init(XWindow* wnd, Graphics::OpenGLSettings& settings)
 	{
 		// Adjust size
@@ -342,7 +342,7 @@ Graphics* creategraphics(OSWindow* wnd, Graphics::Settings& settings, std::strin
 
 	if (settings.type == Graphics::Settings::OPENGL)
 	{
-		XGLGraphics* gfx = new XGLGraphics();
+		XGLGraphics* gfx = new XGLGraphics(settings);
 		if ((err = gfx->init(wwnd, (Graphics::OpenGLSettings&)settings)).size())
 		{
 			delete gfx;

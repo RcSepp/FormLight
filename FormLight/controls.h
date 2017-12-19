@@ -175,7 +175,7 @@ public:
 	 *
 	 * This method should be called once on program startup
 	**/
-	static bool Drawing::init(const Graphics* gfx, std::string& err);
+	static bool init(const Graphics* gfx, std::string& err);
 	/**
 	 * Create an instance of a Painter
 	 * @param [out] err Error message or empty string if the function succeeded
